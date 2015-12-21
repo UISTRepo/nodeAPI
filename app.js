@@ -2,6 +2,8 @@ var express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser');
 
+console.log('test');
+
 // here we define the variables that will contain the actual code of the route
 var teams = require('./routes/api/teams');
 var trips = require('./routes/api/trips');
