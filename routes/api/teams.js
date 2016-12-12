@@ -10,8 +10,8 @@ router.get('/', function(req, res, next) {
 
     var query = db.query('SELECT * FROM teams');
     query.then(
-        function(users) {
-            res.send(users);
+        function(teams) {
+            res.send(teams);
         }
     );
 
@@ -21,7 +21,7 @@ router.get('/:id', function(req, res, next) {
 
     var group = req.params.id;
 
-    var query = db.query("SELECT * FROM teams WHERE `group` = " + group);
+    var query = db.query("SELECT * FROM teams WHERE `group` = '" + group + "'");
 
     query.then(
         function(teams) {
