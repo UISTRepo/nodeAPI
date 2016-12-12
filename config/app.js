@@ -1,5 +1,5 @@
 var config = {
-    host: 'http://localhost',
+    host: 'http://52.29.104.85/',
     db: {
         host: 'localhost',
         database: 'prog4DB',
