@@ -1,7 +1,7 @@
 var config = {
-    host: 'http://52.29.104.85',
+    host: 'http://localhost',
     db: {
-        host: '52.29.104.85',
+        host: 'localhost',
         database: 'prog4DB',
         user: 'root',
         password: ''
